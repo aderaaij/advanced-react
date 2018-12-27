@@ -13,7 +13,7 @@ const Mutations = {
       },
       info
     );
-    console.log(item);
+    // console.log(item);
     return item;
   },
   updateItem(parent, args, ctx, info) {
@@ -100,7 +100,7 @@ const Mutations = {
       data: { resetToken, resetTokenExpiry }
     });
 
-    console.log(res);
+    // console.log(res);
     return { message: 'Thanks! ' };
   },
   async resetPassword(parent, args, ctx, info) {
